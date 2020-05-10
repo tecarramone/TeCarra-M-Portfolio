@@ -7,22 +7,22 @@
 .navbar {
   position: fixed;
   width: 100%;
-  background-color: #e91e63;
+  background-color: #83032e;
   z-index: 9990;
 }
 
 .project1 {
-  border: solid 5px #e91e63;
+  border: solid 5px #83032e;
   margin-bottom: 25px;
 }
 
 .project2 {
-  border: solid 5px #e91e63;
+  border: solid 5px #83032e;
   margin-bottom: 25px;
 }
 
 .projectimage {
-  border: solid 1px #e91e63;
+  border: solid 1px #83032e;
   width: 50%;
 }
 
@@ -95,15 +95,15 @@ ul li {
 }
 
 a {
-  color: #00b8d4;
+  color: #014049;
   font-weight: 600;
   text-decoration: none;
-  border-bottom: 3px solid #00b8d4;
+  border-bottom: 3px solid #014049;
   padding: 3px;
 }
 
 a:hover {
-  background-color: #00b8d4;
+  background-color: #014049;
   color: white;
 }
 
@@ -141,15 +141,9 @@ header {
   height: 40vh;
   justify-content: center;
   min-height: 250px;
-  padding: 200 20px;
+  padding: 190 20px;
   position: relative;
   text-align: center;
-}
-
-@media only screen and (max-device-width: 420px)  {
-  .header {
-    background-size: auto 100%;
-  }
 }
 
 .header:before {
@@ -184,6 +178,12 @@ header {
 
 
 .skills {
-  background: #e91e63;
+  background: #83032e;
   color: white;
+}
+
+@media only screen and (max-device-width: 420px)  {
+  .header {
+    background-size: auto 100%;
+  }
 }
