@@ -95,15 +95,15 @@ ul li {
 }
 
 a {
-  color: #014049;
+  color: #000000;
   font-weight: 600;
   text-decoration: none;
-  border-bottom: 3px solid #014049;
+  border-bottom: 3px solid #000000;
   padding: 3px;
 }
 
 a:hover {
-  background-color: #014049;
+  background-color: #ddfbff;
   color: white;
 }
 
@@ -118,6 +118,7 @@ a:active {
   max-width: 900px;
   padding: 30px 25px;
 }
+
 header {
   display: flex;
   flex-direction: column;
@@ -128,8 +129,8 @@ header {
   } 
 
 .header {
-  align-items: center;
-  background-color: #EFEFEF;
+  align-items: auto;
+  background-color: #83032e;
   background-image: url('bg.jpg');
   background-position: cover;
   background-repeat: no-repeat;
@@ -138,7 +139,6 @@ header {
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  height: 40vh;
   justify-content: center;
   min-height: 250px;
   padding: 190 20px;
@@ -146,40 +146,16 @@ header {
   text-align: center;
 }
 
-.header:before {
-  background: rgba(0, 0, 0, .7);
-  bottom: 0;
-  content: ' ';
-  display: block;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
 .header * {
   position: relative;
   z-index: 2;
   text-shadow: 1px 1px 10px black;
- 
-}
-
-.header h1 {
-  font-size: 4rem;
-  font-weight: 100;
 }
 
 .header h2 {
-  font-size: 2.1rem;
-  font-weight: 100;
-  margin: 5px 0;
-}
-
-
-.skills {
-  background: #83032e;
-  color: white;
+  font-size: 15px;
+  font-weight: 20;
+  margin-top: 0;
 }
 
 @media only screen and (max-device-width: 420px)  {
