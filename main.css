@@ -103,7 +103,7 @@ a {
 }
 
 a:hover {
-  background-color: #ddfbff;
+  background-color: #a911d8;
   color: white;
 }
 
@@ -146,10 +146,12 @@ header {
   text-align: center;
 }
 
+
 .header * {
   position: relative;
   z-index: 2;
   text-shadow: 1px 1px 10px black;
+ 
 }
 
 .header h2 {
