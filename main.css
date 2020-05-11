@@ -1,3 +1,13 @@
+body {
+  background: #F5F5F5;
+  color: #444;
+  font-family: "Helvetica Neue", Arial, serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
@@ -69,16 +79,6 @@ img {
 #portfolio {
  display: flex;
  flex-direction: column;
-}
-
-body {
-  background: #F5F5F5;
-  color: #444;
-  font-family: "Helvetica Neue", Arial, serif;
-  font-size: 22px;
-  margin: 0;
-  padding: 0;
-  font-weight: 200;
 }
 
 h1, h2, h3, h4 {
@@ -160,8 +160,25 @@ header {
   margin-top: 0;
 }
 
-@media only screen and (max-device-width: 420px)  {
+
+@media screen and (min-width:480px) {
   .header {
     background-size: auto 100%;
   }
 }
+
+@media screen and (min-width:800px) {
+  .header:before {
+    background: rgba(0, 0, 0, .7);
+    bottom: 0;
+    content: ' ';
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+ }
+
+
