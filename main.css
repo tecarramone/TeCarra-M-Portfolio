@@ -129,7 +129,7 @@ header {
   } 
 
 .header {
-  align-items: auto;
+  align-items: center;
   background-color: #83032e;
   background-image: url('bg.jpg');
   background-position: cover;
@@ -146,6 +146,37 @@ header {
   text-align: center;
 }
 
+@media only screen and (max-device-width: 420px)  {
+  .header {
+    background-size: auto 100%;
+  }
+
+  .navbar {
+    display: none;
+  }
+  
+  .navbar a.jumper {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+}
+
+.header:before {
+  background: rgba(0, 0, 0, .7);
+  bottom: 0;
+  content: ' ';
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
 
 .header * {
   position: relative;
@@ -154,18 +185,22 @@ header {
  
 }
 
+.header h1 {
+  font-size: 4rem;
+  font-weight: 100;
+}
+
 .header h2 {
   font-size: 15px;
   font-weight: 20;
   margin-top: 0;
 }
 
-
-@media screen and (min-width:480px) {
-  .header {
-    background-size: auto 100%;
-  }
+.skills {
+  background: #e91e63;
+  color: white;
 }
+
 
 @media screen and (min-width:800px) {
   .header:before {
