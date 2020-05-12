@@ -7,25 +7,23 @@
      <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
-<body>
-
+<body aria-live="polite">
     <nav class="navbar">
-        <ul class="container">
-            <li><a class="jumper" href="#portfolio">Portfolio</a></li>
-            <li><a class="jumper" href="https://github.com/tecarramone">Github</a></li>
-        </ul>
+        <span class="container">
+            <a class="jumper" href="#portfolio">Portfolio</a>
+            <a class="jumper" href="https://github.com/tecarramone">Github</a>
+        </span>
     </nav>
 
-    <main aria-live="polite">
+ 
         <header class="header" id="top">
-          <h1>Te'Carra Murphy</h1>
-            <section role="banner">
-               <h2 class="headline">I'm just an inner-city girl venturing into a cyber world!</h2>
-          </section>
+          <h1>Te'Carra Murphy</h1>        
+          <h2 class="headline">I'm just an inner-city girl venturing into a cyber world!</h2>    
          </header>
          
 
-          <section class="about">
+          <section class="tagline">
+               <span class="content-wrapper"> 
                <h3 class="section-title" id="about">About Me</h3>
                <p>I grew up on the south side of Chicago. As a child I was always excited about learning how things worked. I could often be found with my head in a book or asking a million questions. Of all the things
 	 I could explore I was drawn to technology and the internet. As a teen I 
@@ -35,9 +33,24 @@
 	 Although I have no formal experience with Software Engineering, I am learning quickly and looking forward to excelling in the field. I look forward to being a part of a team of great programmers and collaborating on new and exciting projects.
 	 <br><br>
 	 I recognize that technology is a rapidly expanding field and as I have come to realize that I possess a natural talent and enjoy coding and designing. I have decided to embark upon this journey to learn all that I can and see just how far I can go. </p>
-          </section>
+     </span>
+     </section>
 
-          <section class="portfolio" id="portfolio">
+     <section class="skills">
+          <span class="content-wrapper">
+            <h3>Skills</h3>
+            <p>Here are some of the languages I am learning each day:</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Node.js</li>
+              <li>React</li>
+            </ul>
+          </span>
+     </section>
+
+     <main class="container">
+         <section class="portfolio" class="container" id="portfolio">
                <h3 class="section-title">Some of My Work</h3>
                <h4 class="project-title">Bookmarks Application</h4>
                <div class="screenshot-container">
