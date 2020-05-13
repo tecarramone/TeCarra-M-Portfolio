@@ -42,11 +42,6 @@ body {
   margin: 0 auto;
 }
 
-h2, .avatar, .portfolio-screenshot {
-  display: flex;
-  justify-content: center;
-  vertical-align: middle;
-}
 .navbar .links {
   float: right;
   font-family: 'Roboto', sans-serif;
@@ -55,9 +50,6 @@ h2, .avatar, .portfolio-screenshot {
   margin-top: 25px;
 }
 
-section {
-  padding-left: 10px;
-}
 .navbar .links li {
   display: inline-block;
   margin-left: 30px;
@@ -65,8 +57,18 @@ section {
   color: white;
 }
 
+h2, .portfolio-screenshot {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
 nav div ul li:hover {
   cursor: pointer;
+}
+
+section {
+  padding-left: 10px;
 }
 
 img {
@@ -77,24 +79,24 @@ img {
 }
 
 #portfolio {
- display: flex;
- flex-direction: column;
-}
+  display: flex;
+  flex-direction: column;
+ }
+ 
+ h1, h2, h3, h4 {
+   margin: 10px 0 15px;
+ }
+ 
+ p, ul {
+   margin: 10px 0;
+ }
+ 
+ ul li {
+   margin-left: 30px;
+   margin-bottom: 1px;
+ }
 
-h1, h2, h3, h4 {
-  margin: 10px 0 15px;
-}
-
-p, ul {
-  margin: 10px 0;
-}
-
-ul li {
-  margin-left: 30px;
-  margin-bottom: 1px;
-}
-
-a {
+ a {
   color: #000000;
   font-weight: 600;
   text-decoration: none;
@@ -111,6 +113,7 @@ a:active {
   position: relative;
   top: 1px;
 }
+
 
 .skills {
   background: #83032e;
@@ -151,16 +154,11 @@ header {
   text-align: center;
 }
 
-  
-  .navbar a.jumper {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-
+.navbar a.jumper {
+  position: relative;
+  right: 0;
+  top: 0;
+}
 
 .header:before {
   background: rgba(0, 0, 0, .7);
@@ -192,6 +190,3 @@ header {
   font-weight: 20;
   margin-top: 0;
 }
-
-
-
