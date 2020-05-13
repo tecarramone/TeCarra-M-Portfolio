@@ -151,14 +151,6 @@ header {
   text-align: center;
 }
 
-@media only screen and (min-device-width: 320px)  {
-  .header {
-    background-size: auto 100%;
-  }
-
-  .navbar {
-    display: none;
-  }
   
   .navbar a.jumper {
     background: black;
@@ -168,7 +160,7 @@ header {
     top: 0;
   }
 
-}
+
 
 .header:before {
   background: rgba(0, 0, 0, .7);
@@ -201,19 +193,5 @@ header {
   margin-top: 0;
 }
 
-
-@media screen and (min-width:800px) {
-  .header:before {
-    background: rgba(0, 0, 0, .7);
-    bottom: 0;
-    content: ' ';
-    display: block;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1;
-}
- }
 
 
